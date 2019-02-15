@@ -1,0 +1,20 @@
+Getting The Hang of Tweepy & Building Towards SNAP
+
+After running through upwards of 15 potential ChiPy projects over the past two weeks, vetting 
+multiple potential data sources, I finally settled on the goal of building an app using twitter data 
+that will feature network or sentiment analysis. In short, network analysis comes from a subset 
+of mathematics called graph theory and is used to map relationships. In the social sciences, it is 
+commonly used to determine the density, structure, and complexities in relationships between 
+people in social systems.
+
+With the help of my mentor, I managed to learn the basics of beautifulsoup, the python 
+requests library. And finally, one morning before work, in 6 lines of code I pulled the top of my 
+twitter timeline using tweepy, a python library for the twitter api.
+
+Having successfully pulled data from twitter’s api, I’ve since transitioned to figuring out how to 
+structure my data. In order to run network analysis (specifically, SNAP.py) I need my data 
+structured as nodes/vertices (users) and edges/connections (their relationships). For 
+simplicity’s sake, I plan to start by building a directed visualization of my relationship to my 
+followers using tweepy’s api.followers. Now that I have this depressingly-short list of my twitter 
+followers. I can work on assigning them as nodes.
+
